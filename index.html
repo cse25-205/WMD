@@ -1,10 +1,92 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Website</title>
-  </head>
-  <body>
-    <h1>Hello World 👋</h1>
-    <p>This is my first GitHub page.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Creative GitHub Page</title>
+  
+  <!-- CSS Styles -->
+  <style>
+    /* Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+    /* Reset & base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      animation: fadeInDown 1s ease forwards;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+      line-height: 1.6;
+      animation: fadeInUp 1s ease forwards;
+      animation-delay: 0.5s;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+
+    /* Button style */
+    .btn {
+      padding: 15px 30px;
+      font-size: 1em;
+      color: #2575fc;
+      background: #fff;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .btn:hover {
+      transform: translateY(-5px) scale(1.05);
+      background: #f1f1f1;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div>
+    <h1>Hello world 👋</h1>
+    <p>This is my first GitHub page. Let’s make coding colorful and fun!</p>
+    <a href="#" class="btn">Click Me!</a>
+  </div>
+
+</body>
 </html>
+
