@@ -81,5 +81,30 @@ footer{
     color : white;
      text-align: center; 
     padding: 10px; 
+    p { 
+
+    font-size: 1.1em; 
+
+} 
+    
+a { 
+
+    color: #4CAF50; 
+    text-decoration: none; 
+
+} 
+
+a:hover { 
+    text-decoration: underline; 
+} 
     position: fixed; bottom: 0; 
     width: 100%; 
+    
+img { 
+    border: 5px solid #4CAF50; 
+    border-radius: 10px; 
+} 
+main a[href^="mailto:"] { 
+    color: #ff5722; 
+    font-weight: bold; 
+} 
