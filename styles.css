@@ -39,8 +39,10 @@ main img {
     height: auto; 
     display: block; 
     margin: 20px 0; 
-} 
+    border-radius: 10px;   /* keep rounded corners */
+}
 
+/* Footer */
 footer {
     background-color: #333;
     color: white;
@@ -55,6 +57,7 @@ footer p {
     font-size: 1.1em; 
 }
 
+/* Links */
 a { 
     color: #4CAF50; 
     text-decoration: none; 
@@ -64,12 +67,12 @@ a:hover {
     text-decoration: underline; 
 } 
 
-img { 
-    border: 5px solid #4CAF50; 
-    border-radius: 10px; 
-} 
-
+/* Mail button */
 main a[href^="mailto:"] { 
-    color: #ff5722; 
+    color: white; 
+    background-color: #28a745;
+    padding: 10px 15px;
+    border-radius: 6px;
+    display: inline-block;
     font-weight: bold; 
 }
