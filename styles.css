@@ -1,3 +1,9 @@
+/* Apply font to everything */
+* {
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Header */
 header { 
     background-color: #4CAF50; 
     color: white; 
@@ -9,6 +15,7 @@ header h1 {
     margin: 0; 
 } 
 
+/* Navigation links */
 nav a { 
     color: white; 
     text-decoration: none; 
@@ -19,8 +26,8 @@ nav a:hover {
     text-decoration: underline; 
 }
 
+/* Body */
 body { 
-    font-family: Arial, sans-serif; 
     color: #333; 
     background-color: #f9f9f9; 
     margin: 0; 
@@ -28,6 +35,7 @@ body {
     line-height: 1.6; 
 } 
 
+/* Main content */
 main { 
     padding: 20px; 
     max-width: 800px; 
@@ -39,7 +47,7 @@ main img {
     height: auto; 
     display: block; 
     margin: 20px 0; 
-    border-radius: 10px;   /* keep rounded corners */
+    border-radius: 10px; 
 }
 
 /* Footer */
@@ -57,7 +65,7 @@ footer p {
     font-size: 1.1em; 
 }
 
-/* Links */
+/* Normal links */
 a { 
     color: #4CAF50; 
     text-decoration: none; 
@@ -67,7 +75,7 @@ a:hover {
     text-decoration: underline; 
 } 
 
-/* Mail button */
+/* Email button */
 main a[href^="mailto:"] { 
     color: white; 
     background-color: #28a745;
