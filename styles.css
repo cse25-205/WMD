@@ -78,9 +78,13 @@ main img {
 
 footer{
     background-color :#333 ;
+    
     color : white;
-     text-align: center; 
+    
+    text-align: center; 
+    
     padding: 10px; 
+    
     p { 
 
     font-size: 1.1em; 
